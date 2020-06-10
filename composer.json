@@ -1,0 +1,17 @@
+{
+    "name": "wang3kai/for_package",
+    "description": "composer publish demo",
+    "type": "library",
+    "require": {
+         "php": ">=5.6.0",
+         "monolog/monolog": "^1.23",
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wang3kai",
+            "email": "2939743951@qq.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
