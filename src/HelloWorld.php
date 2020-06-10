@@ -1,5 +1,5 @@
 <?php
-namespace Soeasy\Demo
+namespace Soeasy\Demo;
 class HelloWorld
 {
     public function __construct($name = 'Soeasy')
