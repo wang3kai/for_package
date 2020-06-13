@@ -15,7 +15,15 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": { "Soeasy\\Demo\\": "src" }
+        "psr-4": { 
+            "Soeasy\\Demo\\": "src" 
+        },
+        "files": [
+            "src/common.php"
+        ],
+        "classmap": [
+            "src/App.php"
+        ]
     },
     "repositories": {
         "packagist": {
